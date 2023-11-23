@@ -1,0 +1,13 @@
+:root{
+    background-color: #f0c9ea;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.orkut-font-color{
+    color: #E8258E;
+}
+
+.orkut-button-bg{
+    background-color: #E8258E;
+    cursor: pointer;
+}
