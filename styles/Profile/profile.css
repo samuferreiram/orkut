@@ -30,12 +30,56 @@ header.menu{
 .photo{
     height: 500px;
     border-top-right-radius: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 400px;
+}
+
+.photo__avatar > img {
+    border-radius: 15px;
+}
+
+.photo__tools > div > i{
+    margin-right: 15px;
+}
+
+.photo__name > h1{
+    font-size: 30px;
+    margin-bottom: 5px;
 }
 
 .description{
-    height: 400px;
+    height: 800px;
+    max-width: 580px;
 }
 
 .counter__friend, .counter__community{
-    height: 600px;
+    height: 350px;
+    width: 340px;
+
 }
+
+header > nav{
+    color: white;
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+header > nav > #title > h1{
+    font-size: 50px;
+}
+
+header > nav > #hamburguer > label{
+    font-size: 30px;
+}
+
+/*
+.photo > *{
+    border: 1px solid red;
+}
+*/
